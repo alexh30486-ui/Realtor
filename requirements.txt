@@ -1,0 +1,7 @@
+python-dotenv
+supabase
+langfuse
+beautifulsoup4
+playwright
+requests
+psycopg2-binary

@@ -1,0 +1,25 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Local runtime state (dedup cache, cooldown tracker) - machine-specific, regenerated on run
+dedup_state.json
+scrape_state.json
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Playwright browser binaries (installed via `playwright install`, not committed)
+.cache/ms-playwright/
+
+# Editor/OS cruft
+.DS_Store
+.vscode/
+.idea/
